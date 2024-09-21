@@ -1,8 +1,8 @@
-// File: /Users/mac/projects/Ticket-App/app/TicketPage/[id]/page.jsx
-import * as entry from '../../../../../app/TicketPage/[id]/page.js'
+// File: /Users/mac/projects/Ticket-App/src/app/TicketPage/[id]/page.jsx
+import * as entry from '../../../../../src/app/TicketPage/[id]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../../app/TicketPage/[id]/page.js')
+type TEntry = typeof import('../../../../../src/app/TicketPage/[id]/page.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{

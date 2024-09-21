@@ -1,8 +1,8 @@
-// File: /Users/mac/projects/Ticket-App/app/api/Tickets/[id]/route.js
-import * as entry from '../../../../../../app/api/Tickets/[id]/route.js'
+// File: /Users/mac/projects/Ticket-App/src/app/api/Tickets/[id]/route.js
+import * as entry from '../../../../../../src/app/api/Tickets/[id]/route.js'
 import type { NextRequest } from 'next/server.js'
 
-type TEntry = typeof import('../../../../../../app/api/Tickets/[id]/route.js')
+type TEntry = typeof import('../../../../../../src/app/api/Tickets/[id]/route.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
